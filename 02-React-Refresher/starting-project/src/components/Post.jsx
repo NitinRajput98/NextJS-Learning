@@ -1,8 +1,8 @@
-function Post() {
+function Post({ displayName, text }) {
   return (
     <div>
-      <p>Nitin Rajput</p>
-      <p>React is Awsome!!!!</p>
+      <p>{displayName}</p>
+      <p>{text}</p>
     </div>
   );
 }
